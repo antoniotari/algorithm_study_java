@@ -4,6 +4,10 @@ import java.util.PriorityQueue;
 
 public class MergeLists{
     
+    /**
+     * Time: log(k) * n.
+     * k is number of list and n is number of total elements.
+     */ 
     public ListNode mergeKLists(ArrayList<ListNode> lists) {
 		if (lists.size() == 0)
 			return null;
